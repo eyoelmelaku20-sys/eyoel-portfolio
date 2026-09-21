@@ -2,7 +2,7 @@
 #This File will contain the information to be displayed in your portfolio
 
 #CHANGE BELOW
-profile_picture = "Images/profile.JPEG"
+profile_picture = "Images/profile.jpeg"
 about_me = "I'm Eyoel Melaku. I am a Industrial Engineering student at Georgia Tech looking for internships or coops. "
 
 
