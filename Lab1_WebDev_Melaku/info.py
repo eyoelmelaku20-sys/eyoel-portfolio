@@ -2,7 +2,7 @@
 #This File will contain the information to be displayed in your portfolio
 
 #CHANGE BELOW
-profile_picture = "Images/profile.jpeg"
+profile_picture = "Lab1_WebDev_Melaku/Images/profile.jpeg"
 about_me = "I'm Eyoel Melaku. I am a Industrial Engineering student at Georgia Tech looking for internships or coops. "
 
 
@@ -35,9 +35,9 @@ course_data = {
 experience_data = {
     "Process Improvement Lead - Gwinnett Co-op": (["- Led a process-improvement project analyzing the food distribution line",
                                                      "- Timed cars per station and tracked work-in-progress to identify the bottleneck",
-                                                     "- Reduced average wait times by 10 minutes and increased cars served per day by 2"], "Images/cook.jpeg"),
+                                                     "- Reduced average wait times by 10 minutes and increased cars served per day by 2"], "Lab1_WebDev_Melaku/Images/cook.jpeg"),
     "Leader - Gwinnett Leaders of America": (["- Managed and led a team through various leadership initiatives",
-                                               "- Developed organizational and communication skills through team management"], "Images/cleaner.jpeg"),
+                                               "- Developed organizational and communication skills through team management"], "Lab1_WebDev_Melaku/Images/cleaner.jpeg"),
 }
 
 projects_data = {
@@ -67,7 +67,7 @@ spoken_data = {
 }
 
 leadership_data = {
-    "Lead Consultant Applicant - Epic Intentions": (["- Applying for a Lead Consultant role in GT's nonprofit consulting club"], "Images/jelly.jpeg"),
+    "Lead Consultant Applicant - Epic Intentions": (["- Applying for a Lead Consultant role in GT's nonprofit consulting club"], "Lab1_WebDev_Melaku/Images/jelly.jpeg"),
 }
 
 activity_data = {
