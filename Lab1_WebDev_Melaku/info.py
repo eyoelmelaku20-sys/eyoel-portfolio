@@ -43,6 +43,13 @@ experience_data = {
 projects_data = {
     "Electrify GT": "Project Team Lead for a Georgia Tech club initiative analyzing GTPD's vehicle fleet for potential electrification.",
     "Energy Systems Group": "Collaborated with a team to explore optimizing energy access in countries including Ethiopia, Uganda, and Sudan.",
+    "What Type of Pizza Are You? (Interactive Quiz)": (
+        "A fun personality quiz built with Streamlit that matches your answers "
+        "to one of four pizza types: Classic Pepperoni, Veggie Delight, Hawaiian, "
+        "or Margherita. Answer 5 questions using a mix of radio buttons, a "
+        "multi-select topping picker, a number input, and a slider, and get a "
+        "personalized result at the end."
+    ),
 }
 
 programming_data = {
