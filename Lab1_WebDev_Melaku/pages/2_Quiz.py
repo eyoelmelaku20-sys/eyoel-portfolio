@@ -3,7 +3,10 @@ Georgia Tech - CS1301
 Web Dev Lab - Part 2: Interactive Quiz
 Quiz Topic: What Type of Pizza Are You?
 """
- 
+ import os
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+IMAGE_DIR = os.path.join(BASE_DIR, "..", "Images") 
 import streamlit as st
  
 # ------------------------------------------------------------
@@ -13,7 +16,7 @@ st.title("🍕 What Type of Pizza Are You?")
 st.write("Answer these 5 questions to find out your pizza match!")
  
 # first image - just a fun pizza pic to kick off the quiz
-st.image("Images/pizza_pepp.jpg", caption="Let's begin!")
+st.image(os.path.join(IMAGE_DIR, "pizza_pepp.jpg"), caption="Let's begin!")
  
 # this list will hold one letter (A, B, C, or D) for every question I answer
 # at the end, I check which letter shows up the most to decide my result
@@ -56,7 +59,7 @@ else:
     answers.append("A")  # default if none of the above were picked
  
 # second image - shows different topping options
-st.image("Images/pizza-basil.jpg", caption="Yum!")
+st.image(os.path.join(IMAGE_DIR, "pizza-basil.jpg"), caption="Yum!")
  
 # ------------------------------------------------------------
 # Question 3 - Number Input (st.number_input)
@@ -101,8 +104,7 @@ else:
     answers.append("A")
  
 # third image - right before showing the result
-st.image("Images/pizza-cheese.jpg", caption="Last step!")
- 
+st.image(os.path.join(IMAGE_DIR, "pizza-cheese.jpg"), caption="Last step!") 
 # ------------------------------------------------------------
 # Results section
 # ------------------------------------------------------------
