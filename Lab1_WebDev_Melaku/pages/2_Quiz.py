@@ -3,7 +3,7 @@ Georgia Tech - CS1301
 Web Dev Lab - Part 2: Interactive Quiz
 Quiz Topic: What Type of Pizza Are You?
 """
- import os
+import os
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 IMAGE_DIR = os.path.join(BASE_DIR, "..", "Images") 
